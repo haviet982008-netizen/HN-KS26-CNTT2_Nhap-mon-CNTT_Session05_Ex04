@@ -1,0 +1,19 @@
+﻿1.So sánh ưu/nhược điểm của Absolute và Relative Path trong dự án lập trình.
+Tiêu chí
+	Absolute
+	Relative Path
+	
+
+	C:\Users\An-K26\FarmProject\data\logs.csv
+
+
+	../data/logs.csv
+	Độ dài
+	dài,chi tiết
+	ngắn gọn
+	Tính di động
+	Thấp
+	Cao
+	2.
++Giải pháp tối ưu:Relative Path(hiệu quả cao hơn nhờ ưu điểm hoạt động tốt trên mọi máy tính chỉ cần giữ nguyên cấu trúc thư mục dự án. )
++ý nghĩa của ký hiệu (..):đại diện cho thư mục cha (thư mục nằm ngay phía trên 1 cấp) so với thư mục bạn đang đứng hiện tại (Current Working Directory)
